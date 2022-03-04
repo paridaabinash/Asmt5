@@ -1,0 +1,164 @@
+body {
+    border: 10px ridge greenyellow;
+    background-image: url(./m.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+
+.inline  {
+    padding: 20px;
+    width: 94vw;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+.head {
+    background-color: black;
+    color: white;
+    border: 4px solid red;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+
+.head1items {
+
+    width: 30vw;
+    padding: 1rem;
+    height: 15vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+
+.head2items {
+    width: 35vw;
+    padding: 0;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    right: 10vw;
+    top: 1vw;
+}
+
+
+.head3items {
+    width: 35vw;
+    position: relative;
+    padding: 1rem;
+    height: 20vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.round {
+    margin-top: 200px;
+    padding: 0;
+    font-weight: bold;
+    font-style: italic;
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: 8px solid silver;
+    border-radius: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parentform {
+    margin-right: 100px;
+    color: maroon;
+    background-color: white;
+    padding: 20px;
+    border: 8px dashed red;
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.form {
+    height: 80vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.registration_flex {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    
+}
+
+
+.headmenu {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 30px;
+    width: 25vw;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.menulist {
+    border: 2px solid green;
+    border-radius: 50px;
+    color:midnightblue;
+    background-color: aquamarine;
+    padding: 5px;
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+
+.firstflexbox {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.secondflexbox {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+li {
+    padding-left: 80px;
+}
+h1 {
+    text-align: center;
+}
+
